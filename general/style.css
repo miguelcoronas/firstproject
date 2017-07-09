@@ -1,3 +1,24 @@
-.navbar-collapse {
+/* NAVIGATION */
+div.navbar-collapse {
 	justify-content:flex-end;
+}
+
+/*  HEADER */
+
+div.relative {
+	position: relative;
+}
+
+/*  La propiedad CSS z-index indica el z-order de un elemento y 
+sus descendientes. Cuando varios elementos se superponen, z-order 
+determina cuales cubren a otros. Un elemento con mayor z-index 
+generalmente cubre a otro menor
+el menor indice va hasta abajo*/
+.banner-img {
+	width: 100%;
+	height:35em;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("http://via.placeholder.com/800x650");
 }
