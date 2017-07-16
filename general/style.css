@@ -64,7 +64,7 @@ button.enyo-btn {
 }
 
 div.download-it {
-	padding: 3em;
+	padding: 1.75em;
 }
 
 div.download-it li,
@@ -75,6 +75,15 @@ div.download-it ul {
 
 div.media {
 	padding: 1em;
+}
+
+div.media img {
+	width:50px;
+}
+
+div.media img.phone {
+	width:35px;
+	height: 100%
 }
 
 
@@ -92,10 +101,10 @@ div.plans-container .row:first-child{
 	padding: 7em 0em 3em 0em;
 	background-color: aliceblue;
 }
-div.plans-container .row:nth-child(2){
+/* div.plans-container .row:nth-child(2){
 	margin:0 2em;
 }
-
+*/
 .capitalize {
 	text-transform: uppercase;
 }
