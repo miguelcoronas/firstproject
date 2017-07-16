@@ -2,6 +2,23 @@
 div.navbar-collapse {
 	justify-content:flex-end;
 }
+nav.navigation {
+	background-color: #0292dc;
+	color: white;
+}
+nav.navigation a {
+	color: #fff;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5;
+}
+
+.plams-container h5 {
+	color: #25365d;
+	font-size: 1.75em;	
+}
 
 /*  HEADER */
 
@@ -17,17 +34,17 @@ el menor indice va hasta abajo*/
 
 div.banner-img {
 	width: 100%;
-	height:35em;
+	height:35em;		
+	background: linear-gradient(rgba(255, 255, 255, 0.00), rgba(255, 255, 255, 1.00)), rgba(255,255,255,0.55) url(../img/mountains.jpg) no-repeat center;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url("http://via.placeholder.com/800x650");
 }
 
 /*  Product photo */
 div.features h2 {
 	text-align: center;
-	padding: 2em 0;
+	padding: 0.35em 0;
 }
 
 div.features img {
@@ -61,10 +78,22 @@ div.banner-img {
 
 button.enyo-btn {
 	border-radius: 50px;
+	color: #fff;
+	background-color: #25365d;
 }
 
 div.download-it {
-	padding: 1.75em;
+	padding: 1.75em 1.75em 3em 1.75em;
+}
+
+div.download-it h2 {
+	margin-top:1.75em;
+}
+
+div.macbook {
+	display:flex;
+	padding-top: 3em;
+	align-items: center;
 }
 
 div.download-it li,
@@ -106,7 +135,10 @@ div.plans-container .row:first-child{
 }
 */
 .capitalize {
+	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
+	color: #25365d;
+	font-size: 2.5em;
 }
 
 /*  Contact */
@@ -147,10 +179,10 @@ div.footer-img {
 	margin: 0 auto;
 	width: 100%;
 	height:20em;
+	background: linear-gradient(rgba(255, 255, 255, 1.00), rgba(255, 255, 255, 0.00)), rgba(255,255,255,0.95) url(../img/mountains-footer.jpg) no-repeat center;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url("http://via.placeholder.com/800x300")
 
 }
 
