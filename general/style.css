@@ -1,4 +1,8 @@
 /* NAVIGATION */
+body {
+	padding-top: 3em;
+}
+
 div.navbar-collapse {
 	justify-content:flex-end;
 }
@@ -8,6 +12,14 @@ nav.navigation {
 }
 nav.navigation a {
 	color: #fff;
+}
+
+nav.navbar a{
+	color: #fff!important;
+}
+
+nav.navbar button {
+	border-color: #fff!important;
 }
 
 p {
@@ -42,6 +54,11 @@ div.banner-img {
 }
 
 /*  Product photo */
+section.plans {
+	background-color: #f7f9fb;
+	padding: 3em 0;
+}
+
 div.features h2 {
 	text-align: center;
 	padding: 0.35em 0;
