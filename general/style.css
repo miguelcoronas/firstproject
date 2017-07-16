@@ -59,6 +59,12 @@ section.plans {
 	padding: 3em 0;
 }
 
+img.macbook-features {
+	width: : 100%;
+	max-width: 3oem;
+	padding: 0 3em;
+}
+
 div.features h2 {
 	text-align: center;
 	padding: 0.35em 0;
